@@ -5,7 +5,7 @@ COUNTRY_TR sözlüğü, INDICATORS ve dosya yolları burada tanımlanır.
 import os
 
 # ── Yol Sabitleri ─────────────────────────────────────────────────────────────
-current_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+current_dir = os.path.dirname(os.path.abspath(__file__))
 parquet_path = os.path.join(current_dir, "macro_data_25y.parquet")
 social_csv_path = os.path.join(current_dir, "social_indicators.csv")
 blacklist_path = os.path.join(current_dir, "timeout_blacklist.json")
