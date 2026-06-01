@@ -1,0 +1,2 @@
+Crash Log: Sat May 30 16:06:53 2026
+'TicaretTerminalWindow' object has no attribute 'btn_export_pdf'
